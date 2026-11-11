@@ -1,0 +1,6 @@
+.ao-dialog { line-height: 1.45; }
+.ao-dialog h3 { margin: 0 0 .5rem; }
+.ao-dialog small { opacity: .72; }
+.ao-config-form { display: flex; flex-direction: column; gap: 10px; }
+.ao-config-form textarea { width: 100%; min-height: 430px; resize: vertical; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+.ao-config-form .notes { opacity: .7; font-size: .85em; }

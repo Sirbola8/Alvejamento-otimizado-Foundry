@@ -1,0 +1,27 @@
+{
+  "id": "alvejamento-otimizado",
+  "title": "Alvejamento Otimizado",
+  "description": "Alpha: redirecionamento configurável de efeitos como Hunter's Mark e Hex para Foundry VTT 13.351 + D&D 5e 5.3.3, com integração opcional ao Midi-QOL.",
+  "version": "0.1.0-alpha.3",
+  "authors": [{ "name": "SirBola8" }],
+  "compatibility": {
+    "minimum": "13.351",
+    "verified": "13.351",
+    "maximum": "13.351"
+  },
+  "system": ["dnd5e"],
+  "esmodules": ["scripts/main.mjs"],
+  "styles": ["styles/main.css"],
+  "socket": true,
+  "relationships": {
+    "systems": [{
+      "id": "dnd5e",
+      "type": "system",
+      "compatibility": { "minimum": "5.3.3", "verified": "5.3.3" }
+    }],
+    "recommends": [{
+      "id": "midi-qol",
+      "type": "module"
+    }]
+  }
+}
